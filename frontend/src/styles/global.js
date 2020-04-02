@@ -1,7 +1,7 @@
 import { createGlobalStyle } from 'styled-components'
 
 export default createGlobalStyle`
-  @import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
   *{
     margin: 0;
     padding: 0;
@@ -10,13 +10,28 @@ export default createGlobalStyle`
   }
   body {
     font: 400 14px Roboto, sans-serif;
-    background: #ffff;
+    background: ${props => props.theme.colors.background};
     -webkit-font-smoothing: antialiased;
     transition: color, background 1s ease 0s, transform 1s ease 0s;
-    color: black;
+    color: ${props => props.theme.colors.text};
   }
-  input, button, textarea {
-    font: 400 18px Roboto, sans-serif;
+  html, body, #root {
+    height: 100%;
+  }
+  html {
+    font-size: 62.5%;
+
+    @media(max-width: 1535px) {
+      font-size: 58%;
+    }
+
+    @media(max-width: 1080px) {
+      font-size: 54%;
+    }
+
+  }
+  input, button, textarea, p {
+    font: 1.8rem 'Roboto', sans-serif;
   }
   button {
     cursor: pointer;
