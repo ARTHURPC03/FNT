@@ -1,14 +1,17 @@
-import React from 'react';
-import GlobalStyles from './global/styles';
-import Index from './pages/Index';
+import React from 'react'
 
-const App = () => {
+import Routes from './routes'
+import Header from './components/Header'
+import GlobalStyles from './global/styles'
+
+function App() {
   return (
     <>
       <GlobalStyles />
-      <Index />
+      <Header />
+      <Routes />
     </>
-  );
-};
+  )
+}
 
-export default App;
+export default App
