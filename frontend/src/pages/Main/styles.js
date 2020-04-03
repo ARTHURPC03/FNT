@@ -9,7 +9,7 @@ export const Container = styled.div`
     margin-top: 80px;
     margin-bottom: 24;
     transition: color 1s ease 0s, transform 1s ease 0s;
-    color: ${props => props.theme.colors.text};
+    color: ${(props) => props.theme.colors.text};
   }
 `
 
@@ -24,7 +24,7 @@ export const Ul = styled.ul`
   }
 
   li {
-    background: ${props => props.theme.colors.li};
+    background: ${(props) => props.theme.colors.li};
     padding: 24px;
     border-radius: 8px;
     position: relative;
@@ -38,7 +38,7 @@ export const Ul = styled.ul`
     &:hover {
       border-width: 2px;
       border-style: solid;
-      border-color: ${props => props.theme.colors.text};
+      border-color: #05d361;
       border-image: initial;
     }
     button {
@@ -46,7 +46,7 @@ export const Ul = styled.ul`
       right: 24px;
       top: 24px;
       border: 0;
-      background: #000;
+      background: ${(props) => props.theme.colors.button};
       display: flex;
       -webkit-box-pack: center;
       justify-content: center;
@@ -57,7 +57,7 @@ export const Ul = styled.ul`
       border-color: transparent;
       border-image: initial;
       color: #f5f5f5;
-      font-size: 1rem;
+      font-size: 1.5rem;
       svg {
         transition: border 0.2s ease 0s, transform 0.2s ease 0s;
         color: white;
@@ -74,21 +74,21 @@ export const Ul = styled.ul`
       display: block;
       margin-bottom: 16px;
       transition: color 1s ease 0s, transform 1s ease 0s;
-      color: ${props => props.theme.colors.text};
+      color: ${(props) => props.theme.colors.text};
       font-size: 2rem;
     }
     p + strong {
       margin-top: 32px;
     }
     p {
-      color: ${props => props.theme.colors.text};
+      color: ${(props) => props.theme.colors.text};
       line-height: 21px;
       font-size: 1.6rem;
       text-align: justify;
       margin-bottom: 10px;
     }
     span {
-      color: ${props => props.theme.colors.text};
+      color: ${(props) => props.theme.colors.text};
       font-size: 1rem;
       width: 100%;
     }
