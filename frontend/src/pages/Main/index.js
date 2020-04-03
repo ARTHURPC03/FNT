@@ -7,7 +7,7 @@ export default function Main() {
     <Container>
       <Ul>
         <li>
-          <strong>titulo</strong>
+          <strong>Título</strong>
           <p className="description">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non
             perferendis doloribus voluptas hic, ratione recusandae dicta cum
@@ -19,7 +19,7 @@ export default function Main() {
         </li>
 
         <li>
-          <strong>titulo </strong>
+          <strong>Título </strong>
           <p className="description">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non
             perferendis doloribus voluptas hic, ratione recusandae dicta cum
@@ -31,7 +31,7 @@ export default function Main() {
         </li>
 
         <li>
-          <strong>titulo</strong>
+          <strong>Título</strong>
           <p className="description">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non
             perferendis doloribus voluptas hic, ratione recusandae dicta cum
@@ -43,7 +43,7 @@ export default function Main() {
         </li>
 
         <li>
-          <strong>titulo</strong>
+          <strong>Título</strong>
           <p className="description">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non
             perferendis doloribus voluptas hic, ratione recusandae dicta cum
@@ -55,7 +55,7 @@ export default function Main() {
         </li>
 
         <li>
-          <strong>titulo</strong>
+          <strong>Título</strong>
           <p className="description">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non
             perferendis doloribus voluptas hic, ratione recusandae dicta cum
@@ -67,7 +67,7 @@ export default function Main() {
         </li>
 
         <li>
-          <strong>titulo</strong>
+          <strong>Título</strong>
           <p className="description">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non
             perferendis doloribus voluptas hic, ratione recusandae dicta cum

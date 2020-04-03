@@ -8,6 +8,6 @@ export default {
     background: '#FFFFFF',
     li: '#F5F5F5',
     text: '#0d0d0d',
-    button: '#0d0d0d',
+    button: '#dddddd;',
   },
 }

@@ -26,7 +26,7 @@ export const Ul = styled.ul`
   li {
     background: ${(props) => props.theme.colors.li};
     padding: 24px;
-    border-radius: 10px;
+    border-radius: 8px;
     position: relative;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
@@ -38,7 +38,7 @@ export const Ul = styled.ul`
     &:hover {
       border-width: 2px;
       border-style: solid;
-      border-color: ${(props) => props.theme.colors.li};
+      border-color: #000000;
       border-image: initial;
     }
     button {
@@ -56,12 +56,12 @@ export const Ul = styled.ul`
       border-style: solid;
       border-color: transparent;
       border-image: initial;
-      color: #0d0d0d;
+      color: #000000;
       font-size: 1.5rem;
       font-weight: bold;
       svg {
         transition: border 0.2s ease 0s, transform 0.2s ease 0s;
-        color: white;
+        color: black;
       }
       &:hover {
         transform: translateY(-7px);
