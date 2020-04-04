@@ -1,5 +1,7 @@
 import styled from 'styled-components'
 
+import img from '../../assets/images/n1.png'
+
 export const Container = styled.div`
   width: 100%;
   max-width: 1180px;

@@ -2,12 +2,15 @@ import React from 'react'
 
 import { Container, Ul } from './styles'
 
+import img from '../../assets/images/n1.png'
+
 export default function Main() {
   return (
     <Container>
       <Ul>
         <li>
           <strong>Título</strong>
+
           <p className="description">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non
             perferendis doloribus voluptas hic, ratione recusandae dicta cum
@@ -19,7 +22,7 @@ export default function Main() {
         </li>
 
         <li>
-          <strong>Título </strong>
+          <strong>Título</strong>
           <p className="description">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non
             perferendis doloribus voluptas hic, ratione recusandae dicta cum
