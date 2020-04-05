@@ -37,10 +37,10 @@ export default function Header({ toggleTheme }) {
           height={10}
           width={40}
           handleDiameter={20}
-          offColor={colors.text}
-          onColor={colors.text}
-          offHandleColor={colors.text}
-          onHandleColor={colors.text}
+          offColor="#717171"
+          onColor="#999999"
+          offHandleColor="#cfcfcf"
+          onHandleColor="#cfcfcf"
         />
         <Link to="/profile">
           <h2>Perfil</h2>
