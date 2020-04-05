@@ -1,12 +1,15 @@
 import styled from 'styled-components'
+import {darken, lighten} from 'polished';
 
-import img from '../../assets/images/n1.png'
 
 export const Container = styled.div`
   width: 100%;
   max-width: 1180px;
   padding: 0 30px;
   margin: 32px auto;
+  display: flex;
+  flex-direction: row;
+
   h1 {
     margin-top: 80px;
     margin-bottom: 24;
@@ -15,9 +18,59 @@ export const Container = styled.div`
   }
 `
 
+export const Stars = styled.div`
+  display: flex;
+  flex-direction: row;
+`
+
+export const Leatherboard = styled.div`
+  width: 35%;
+  padding: 3rem;
+  margin: 0 2rem auto;
+  background-color: #8c95f7;
+  border-radius: 4px;
+  box-shadow: 2px 2px 8px 0px rgba(0,0,0,0.2);
+  color: #222;
+  display: flex;
+  flex-direction: column;
+
+  h1 {
+    margin-top: 0;
+  }
+  small {
+    margin-bottom: 1.5rem;
+    color: #343434;
+  }
+`
+
+export const User = styled.div`
+  display: flex;
+  flex-direction: row;
+  margin-bottom: .75rem;
+
+  img {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+  }
+
+  .details {
+    margin-left: .75rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    span {
+      color: gold;
+      margin-left: .5rem
+    }
+  }
+`;
+
 export const Ul = styled.ul`
+  width: 65%;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(1, 1fr);
   grid-gap: 24px;
   list-style: none;
 
@@ -32,26 +85,41 @@ export const Ul = styled.ul`
     position: relative;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
-    transition: all 0.2s ease 0s;
-    border-width: 2px;
-    border-style: solid;
-    border-color: rgb(11, 10, 13);
+    transition: all 0.2s ease-in-out 0s;
+    box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.2);
     border-image: initial;
-    &:hover {
-      border-width: 2px;
-      border-style: solid;
-      border-color: ${(props) => props.theme.colors.li};
-      border-image: initial;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    cursor: pointer;
+
+    .top-line {
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+      justify-content: space-between;
     }
+
+    .more-info {
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+      justify-content: space-between;
+    }
+
+    &:hover {
+      background: ${(props) => darken(.03, props.theme.colors.li)}
+    }
+
     button {
-      position: absolute;
-      right: 24px;
-      top: 24px;
+      align-self:flex-start ;
       border: 0;
+      padding: .5rem .75rem;
       background: ${(props) => props.theme.colors.button};
       display: flex;
       -webkit-box-pack: center;
       justify-content: center;
+      align-items: center;
       border-radius: 8px;
       transition: border 0.2s ease 0s, transform 0.2s ease 0s;
       border-width: 3px;
@@ -63,10 +131,10 @@ export const Ul = styled.ul`
       font-weight: bold;
       svg {
         transition: border 0.2s ease 0s, transform 0.2s ease 0s;
-        color: white;
+        margin-left: .35rem
       }
       &:hover {
-        transform: translateY(-7px);
+        transform: translateY(-2px);
         border-color: transparent;
         svg {
           color: white;
@@ -75,7 +143,6 @@ export const Ul = styled.ul`
     }
     strong {
       display: block;
-      margin-bottom: 16px;
       transition: color 1s ease 0s, transform 1s ease 0s;
       color: ${(props) => props.theme.colors.text};
       font-size: 2rem;
@@ -90,10 +157,19 @@ export const Ul = styled.ul`
       text-align: justify;
       margin-bottom: 10px;
     }
-    span {
-      color: ${(props) => props.theme.colors.text};
-      font-size: 1rem;
+    small {
+      color: ${(props) => lighten(.3,props.theme.colors.text)};
+      /* font-size: 1rem; */
       width: 100%;
+      margin-bottom: 1rem;
+
+      a {
+        color: #2748ff;
+
+        &:visited {
+          color: #2748ff;
+        }
+      }
     }
   }
 `
