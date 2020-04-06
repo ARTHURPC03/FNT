@@ -11,10 +11,10 @@ import Header from './components/Header'
 import GlobalStyles from './styles/global'
 
 function App() {
-  const [theme, setTheme] = usePersistedState('theme', dark)
+  const [theme, setTheme] = usePersistedState('theme', light)
 
   const toggleTheme = () => {
-    setTheme(theme.title === 'light' ? light : dark)
+    setTheme(theme.title === 'dark' ? light : dark)
   }
 
   return (
