@@ -1,11 +1,11 @@
 import React from 'react'
 
-import { Container, Ul } from './styles'
+import { Container, Ul, Leatherboard, User } from './styles'
+import userPlaceholder from '../../assets/images/user-placeholder.png'
 
 export default function Entertainment() {
   return (
     <Container>
-      <div>Adicionar Recomendação de Entretenimento</div>
       <Ul>
         <li>
           <strong>Título</strong>
@@ -20,7 +20,7 @@ export default function Entertainment() {
             allowFullScreen
           />
           <br />
-          <button type="button">Ver noticia completa</button>
+          <button type="button">Mais detalhes</button>
         </li>
 
         <li>
@@ -36,7 +36,7 @@ export default function Entertainment() {
             allowFullScreen
           />
           <br />
-          <button type="button">Ver noticia completa</button>
+          <button type="button">Mais detalhes</button>
         </li>
 
         <li>
@@ -52,7 +52,7 @@ export default function Entertainment() {
             allowFullScreen
           />
           <br />
-          <button type="button">Ver noticia completa</button>
+          <button type="button">Mais detalhes</button>
         </li>
 
         <li>
@@ -68,7 +68,7 @@ export default function Entertainment() {
             allowFullScreen
           />
           <br />
-          <button type="button">Ver noticia completa</button>
+          <button type="button">Mais detalhes</button>
         </li>
 
         <li>
@@ -80,7 +80,7 @@ export default function Entertainment() {
             exercitationem aliquam molestias sequi mollitia dignissimos
             voluptate, ex amet fugiat est voluptates quibusdam.
           </p>
-          <button type="button">Ver noticia completa</button>
+          <button type="button">Mais detalhes</button>
         </li>
 
         <li>
@@ -92,9 +92,23 @@ export default function Entertainment() {
             exercitationem aliquam molestias sequi mollitia dignissimos
             voluptate, ex amet fugiat est voluptates quibusdam.
           </p>
-          <button type="button">Ver noticia completa</button>
+          <button type="button">Mais detalhes</button>
         </li>
       </Ul>
+      <Leatherboard>
+        <h1>Placar</h1>
+        <small>Aqui aparecerá o pessoal que mais interage na plataforma! \õ/</small>
+
+        {[...Array(10)].map((x,i) => (
+          <User key={i}>
+            <img src={userPlaceholder} alt="User profile"/>
+            <div className="details">
+              <h3>Fleflis</h3>
+              <span className="first">150</span>
+            </div>
+          </User>
+        ))}
+      </Leatherboard>
     </Container>
   )
 }
