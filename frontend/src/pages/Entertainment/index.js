@@ -9,6 +9,7 @@ export default function Entertainment() {
       <Ul>
         <li>
           <strong>Título</strong>
+          <span>por Franco, 1 hora atrás</span>
           <iframe
             title="devmedia"
             width="476"
@@ -19,12 +20,12 @@ export default function Entertainment() {
             allowFullScreen
           />
           <br />
-          <span>por Franco, 1 hora atrás</span>
           <button type="button">Ver noticia completa</button>
         </li>
 
         <li>
           <strong>Título</strong>
+          <span>por Franco, 15 horas atrás</span>
           <iframe
             title="ff"
             width="476"
@@ -35,12 +36,12 @@ export default function Entertainment() {
             allowFullScreen
           />
           <br />
-          <span>por Franco, 15 horas atrás</span>
           <button type="button">Ver noticia completa</button>
         </li>
 
         <li>
           <strong>Título</strong>
+          <span>por Franco, 15 horas atrás</span>
           <iframe
             title="vvar3"
             width="476"
@@ -51,12 +52,12 @@ export default function Entertainment() {
             allowFullScreen
           />
           <br />
-          <span>por Franco, 15 horas atrás</span>
           <button type="button">Ver noticia completa</button>
         </li>
 
         <li>
           <strong>Título</strong>
+          <span>por Franco, 15 horas atrás</span>
           <iframe
             title="MMs"
             width="476"
@@ -67,31 +68,30 @@ export default function Entertainment() {
             allowFullScreen
           />
           <br />
-          <span>por Franco, 15 horas atrás</span>
           <button type="button">Ver noticia completa</button>
         </li>
 
         <li>
           <strong>Título</strong>
+          <span>por Franco, 15 horas atrás</span>
           <p>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non
             perferendis doloribus voluptas hic, ratione recusandae dicta cum
             exercitationem aliquam molestias sequi mollitia dignissimos
             voluptate, ex amet fugiat est voluptates quibusdam.
           </p>
-          <span>por Franco, 15 horas atrás</span>
           <button type="button">Ver noticia completa</button>
         </li>
 
         <li>
           <strong>Título</strong>
+          <span>por Franco, 15 horas atrás</span>
           <p>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non
             perferendis doloribus voluptas hic, ratione recusandae dicta cum
             exercitationem aliquam molestias sequi mollitia dignissimos
             voluptate, ex amet fugiat est voluptates quibusdam.
           </p>
-          <span>por Franco, 15 horas atrás</span>
           <button type="button">Ver noticia completa</button>
         </li>
       </Ul>

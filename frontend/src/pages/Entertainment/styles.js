@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { darken } from 'polished'
 
 export const Container = styled.div`
   width: 100%;
@@ -31,20 +32,17 @@ export const Ul = styled.ul`
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
     transition: all 0.2s ease 0s;
-    border-width: 2px;
-    border-style: solid;
-    border-color: rgb(11, 10, 13);
-    border-image: initial;
+    box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.2);
+
     &:hover {
-      border-width: 2px;
-      border-style: solid;
-      border-color: #000000;
-      border-image: initial;
+      background: ${(props) => darken(.03, props.theme.colors.li)}
     }
+
     button {
       position: absolute;
       right: 24px;
       top: 24px;
+      padding: .5rem .75rem;
       border: 0;
       background: ${(props) => props.theme.colors.button};
       display: flex;
@@ -64,7 +62,7 @@ export const Ul = styled.ul`
         color: black;
       }
       &:hover {
-        transform: translateY(-7px);
+        transform: translateY(-2px);
         border-color: transparent;
         svg {
           color: white;
