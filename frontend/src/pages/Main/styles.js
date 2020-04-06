@@ -21,6 +21,7 @@ export const Container = styled.div`
 export const Stars = styled.div`
   display: flex;
   flex-direction: row;
+  align-items: center;
 `
 
 export const Leatherboard = styled.div`
