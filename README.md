@@ -28,10 +28,8 @@
 - [Idéia / Solução](#idea)
 - [Dependências / Limitações](#limitations)
 - [Escopo futuro](#future_scope)
-- [Setting up a local environment](#getting_started)
-- [Usage](#usage)
-- [Technology Stack](#tech_stack)
-- [Contributing](../CONTRIBUTING.md)
+- [Como executar](#getting_started)
+- [Tecnologias utilizadas](#tech_stack)
 - [Autores](#Autores)
 - [Agradecimento](#Agradecimento)
 
@@ -100,40 +98,31 @@ Com isso, o nosso portal vai ter alguns segmentos, explicados á seguir:
 
 A aplicação tem como objetivo futuro ser colocada no ar, para que o combate á _fake news_ seja feito, e ao mesmo tempo, a plataforme auxilie os usuários com interação social na quarentena.
 
-## 🏁 Getting Started <a name = "getting_started"></a>
+## 🏁 Como executar <a name = "getting_started"></a>
 
-These instructions will get you a copy of the project up and running on your local machine for development
-and testing purposes. See [deployment](#deployment) for notes on how to deploy the project on a live system.
+Estas instruções vão fazer com que seja instalado e execute este projeto em sua máquina local **somente para propósitos de teste e desenvolvimento**.
 
-### Prerequisites
+### Pré requisitos
 
-What things you need to install the software and how to install them.
+Para colocar em ambiente de desenvolvimento, é preciso instalar o [yarn](https://classic.yarnpkg.com/pt-BR/)
 
-```
-Give examples
-```
+Também deve se ter em mente que no ambiente de desenvolvimento, terá dois servidores: o **back end** (lida com o banco de dados e todas as informações, somente uma API) e o **front end** (a página da web na qual está a plataforma)
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running.
+Antes de iniciar os servidores de desenvolvimento, deve-se instalar as dependências
 
-Say what the step will be
+**Terminal 1 - Back end**
 
-```
-Give the example
-```
+``cd backend; yarn install; yarn start``
 
-And repeat
 
-```
-until finished
-```
+**Terminal 2 - Front end**
 
-## 🎈 Usage <a name="usage"></a>
+``cd frontend; yarn install; yarn start``
 
-Add notes about how to use the system.
 
-## ⛏️ Built With <a name = "tech_stack"></a>
+## ⛏️ Tecnologias utilizadas <a name = "tech_stack"></a>
 
 - [MongoDB](https://www.mongodb.com/) - Database
 - [Express](https://expressjs.com/) - Server Framework
