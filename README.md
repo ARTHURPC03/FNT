@@ -58,16 +58,47 @@ As melhores idéias para esta solução serão premiadas.
 
 A nossa idéia consiste em criar um portal, ou uma plataforma, para combater as _fake news_, deixando ela atrativa para todo o tipo de público.
 
+Com isso, o nosso portal vai ter alguns segmentos, explicados á seguir:
+
+### Rastreador de Fake News
+
+- Postagens serão feitas por usuários e também recolhidas de sites de notícias automaticamente
+- Todas as postagens terão um sistema de pontuação e classificação, com valores de 1 á 5 estrelas, na qual os usuários votarão
+- As postagens com pontuação próxima a 1, são mais propensas á serem _fake news_, assim como as postagens com pontuação próxima a 5, são mais propensas á serem _noticias verdadeiras_
+- Os usuários podem cadastrar **referências bibliográficas** em cada notícia, fazendo com que a interação com a notícia seja maior, dando mais pontos positivos ou negativos á notícia.
+- As notícias também terá uma sessão de comentários, para interação e discussão sobre a notícia ou referência bibliográfica da mesma
+- Pode se fazer a pesquisa de alguma notícia, assim como o cadastro de uma nova é facilitado
+
+### Gráficos
+
+- Serão mostrados dados em formatos de gráficos simplificados, para compreensão de tais dados em relação ao mundo, continente, país, estado, etc
+- Pode se filtrar informações de cada região através de um campo de busca
+
+### Entretenimento
+
+- Uma sessão mais descontraída, para quem não está procurando por notícias sobre a pandemia, mas maneiras de como fazer uma interação social a distância, ou coisas relacionadas
+- Os usuários farão postagem de coisas para entreter os outros usuários durante o período de quarentena, como cursos gratuitos, experiências, documentários, filmes, aplicativos, etc
+- Dentro de cada postagem, além da descrição, terá uma sessão de comentários, para esclarecimento de dúvidas e interação entre o criador da postagem e os demais usuários
+- Todas as postagens terão um sistema de pontos, para classificar os posts mais relevantes ou com mais discussão
+
+### Sistema de gamificação
+
+- Um sistema simples de [gamificação](https://pt.wikipedia.org/wiki/Ludificação), fazendo com que seja mais interessante interagir na plataforma, ganhando reconhecimento (seja por postagem de notícias, publicações de referências bibliográficas, publicação de entretenimento ou interação social com os usuários na plataforma)
+- O sistema de reconhecimento fica em cada sessão, tendo um placar dos usuários que mais interagem na plataforma
+- Existirá, de princípio, dois placares: semanal e total
+- Posteriormente, há a chance de recompensas em prêmios com futuras parcerias da plataforma
+
+
 ## ⛓️ Dependências / Limitações <a name = "limitations"></a>
 
-- O público alvo na nossa aplicação / plataforma é amplo, desde os idosos sem muito conhecimento de tecnologia, até os mais jovens que usufruem sempre da internet;
-- A aplicação / plataforma deve ser objetiva, interativa, informativa e atrativa;
-- Para refletir positivamente em todo o público alvo, a aplicação / plataforma deve ser responsiva, e talvez ser considerado ela ser _**mobile first**_;
-- Para que a aplicação / plataforma alcance todos os públicos possíveis, o foco deve ser uma página da web, pensando posteriormente em fazer aplicativos para celular;
+- O público alvo na nossa plataforma é amplo, desde os idosos sem muito conhecimento de tecnologia, até os mais jovens que usufruem sempre da internet;
+- A plataforma deve ser objetiva, interativa, informativa e atrativa;
+- Para refletir positivamente em todo o público alvo, a plataforma deve ser responsiva, e talvez ser considerado ela ser _**mobile first**_;
+- Para que a plataforma alcance todos os públicos possíveis, o foco deve ser uma página da web, pensando posteriormente em fazer aplicativos para celular;
 
 ## 🚀 Escopo futuro <a name = "future_scope"></a>
 
-A aplicação tem como objetivo futuro ser colocada no ar, para 
+A aplicação tem como objetivo futuro ser colocada no ar, para que o combate á _fake news_ seja feito, e ao mesmo tempo, a plataforme auxilie os usuários com interação social na quarentena.
 
 ## 🏁 Getting Started <a name = "getting_started"></a>
 
