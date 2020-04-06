@@ -1,6 +1,9 @@
 import React from 'react'
-import { FaExternalLinkAlt} from 'react-icons/fa'
-import {IoIosStarHalf,IoIosStarOutline,IoIosStar} from 'react-icons/io'
+import { Link } from 'react-router-dom'
+import { FaExternalLinkAlt } from 'react-icons/fa'
+import { IoIosStarHalf, IoIosStarOutline, IoIosStar } from 'react-icons/io'
+
+import Example from '../../components/Menu/index'
 
 import { Container, Ul, Stars, Leatherboard, User } from './styles'
 
@@ -9,6 +12,7 @@ import userPlaceholder from '../../assets/images/user-placeholder.png'
 export default function Main() {
   return (
     <Container>
+      <Example />
       <Ul>
         {[...Array(6)].map((x, i) => {
           return (
@@ -21,10 +25,12 @@ export default function Main() {
                   <IoIosStar />
                   <IoIosStar />
                   <IoIosStarHalf />
-                  <IoIosStarOutline/>
+                  <IoIosStarOutline />
                 </Stars>
               </div>
-              <small>por <a href="#root">Franco</a>, 15 horas atrás</small>
+              <small>
+                por <Link to="/profile">Franco</Link>, 15 horas atrás
+              </small>
               <p className="description">
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non
                 perferendis doloribus voluptas hic, ratione recusandae dicta cum
@@ -34,19 +40,23 @@ export default function Main() {
               <div className="more-info">
                 <button type="button">Mais informações</button>
 
-                <button type="button">Ver noticia completa <FaExternalLinkAlt color="#000" /> </button>
+                <button type="button">
+                  Ver noticia completa <FaExternalLinkAlt color="#000" />{' '}
+                </button>
               </div>
             </li>
-            )
+          )
         })}
       </Ul>
       <Leatherboard>
         <h1>Placar</h1>
-        <small>Aqui aparecerá o pessoal que mais interage na plataforma! \õ/</small>
+        <small>
+          Aqui aparecerá o pessoal que mais interage na plataforma! \õ/
+        </small>
 
-        {[...Array(10)].map((x,i) => (
+        {[...Array(10)].map((x, i) => (
           <User key={i}>
-            <img src={userPlaceholder} alt="User profile"/>
+            <img src={userPlaceholder} alt="User profile" />
             <div className="details">
               <h3>Fleflis</h3>
               <span className="first">150</span>

@@ -9,7 +9,7 @@ import { AiOutlineStock } from 'react-icons/ai'
 import { Container, DivLogo, Nav } from './styles'
 
 export default function Header({ toggleTheme }) {
-  const { colors, title } = useContext(ThemeContext)
+  const { title } = useContext(ThemeContext)
 
   return (
     <Container>
@@ -17,6 +17,7 @@ export default function Header({ toggleTheme }) {
         <Link to="/">
           <h1>FNT</h1>
         </Link>
+
         <Link to="/statistics">
           <DivLogo>
             <AiOutlineStock size={25} />
