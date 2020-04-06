@@ -2,28 +2,30 @@
   <a href="" rel="noopener">
  <img src="https://i.imgur.com/AZ2iWek.png" alt="Project logo"></a>
 </p>
-<h3 align="center">Project Title</h3>
+<h3 align="center">FNT (protótipo)</h3>
 
 <div align="center">
 
-[![Hackathon](https://img.shields.io/badge/hackathon-name-orange.svg)](http://hackathon.url.com)
-[![Status](https://img.shields.io/badge/status-active-success.svg)]()
-[![GitHub Issues](https://img.shields.io/github/issues/kylelobo/The-Documentation-Compendium.svg)](https://github.com/kylelobo/The-Documentation-Compendium/issues)
-[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/kylelobo/The-Documentation-Compendium.svg)](https://github.com/kylelobo/The-Documentation-Compendium/pulls)
+[![Organizer](https://img.shields.io/badge/organizer-shawee-orange.svg)](https://shawee.io)
+[![Hackathon](https://img.shields.io/badge/hackathon-hack%20for%20good-blueviolet.svg)](https://hack-for-good.shawee.io)
+[![Status](https://img.shields.io/badge/status-prototype-blue.svg)]()
+[![GitHub Issues](https://img.shields.io/github/issues/ARTHURPC03/FNT.svg)](https://github.com/ARTHURPC03/FNT/issues)
+[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/ARTHURPC03/FNT.svg)](https://github.com/ARTHURPC03/FNT/pulls)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE.md)
 
 </div>
 
 ---
 
-<p align="center"> Few lines describing your project.
+<p align="center"> Um portal voltado para o entretenimento em quarentena e o combate á <i>fake news</i>.
     <br> 
 </p>
 
-## 📝 Table of Contents
+## 📝 Sumário
 
-- [Problem Statement](#problem_statement)
-- [Idea / Solution](#idea)
+- [Capturas de tela](#problem_statement)
+- [Tema do projeto / Problema para solucionar](#problem_statement)
+- [Idéia / Solução](#idea)
 - [Dependencies / Limitations](#limitations)
 - [Future Scope](#future_scope)
 - [Setting up a local environment](#getting_started)
@@ -33,22 +35,27 @@
 - [Authors](#authors)
 - [Acknowledgments](#acknowledgments)
 
-## 🧐 Problem Statement <a name = "problem_statement"></a>
+## 📸 Capturas de tela <a name = "screenshots"></a>
 
-It is useful to design and follow a specific format when writing a problem statement. While there are several options
-for doing this, the following is a simple and straightforward template often used in Business Analysis to maintain
-focus on defining the problem.
+## 🧐 Tema do projeto / Problema para solucionar <a name = "problem_statement"></a>
 
-- IDEAL: This section is used to describe the desired or “to be” state of the process or product. At large, this section
-  should illustrate what the expected environment would look like once the solution is implemented.
-- REALITY: This section is used to describe the current or “as is” state of the process or product.
-- CONSEQUENCES: This section is used to describe the impacts on the business if the problem is not fixed or improved upon.
-  This includes costs associated with loss of money, time, productivity, competitive advantage, and so forth.
+O mundo inteiro vem tentando se adaptar às consequências trazidas pela crise mundial com a pandemia do novo Coronavírus, mas, quando a ordem é "ficar em casa", muitos de nós podemos nos sentir impotentes e buscando formas de ajudar os mais impactados por essa crise.
 
-Following this format will result in a workable document that can be used to understand the problem and elicit
-requirements that will lead to a winning solution.
+Com lockdown decretado em várias empresas, quarentena estabelecida em diversas cidades do Brasil e do mundo, algumas questões que já vinham sendo discutidas no universo da comunicação ficaram ainda mais evidentes:
 
-## 💡 Idea / Solution <a name = "idea"></a>
+- Como podemos criar formas de melhorar e democratizar o acesso à informação?
+- Como os negócios podem contuniar operando em época de quarentena?
+- Como manter o contato e apoio à saúde mental durante o isolamento?
+- Como auxiliar quem continua precisando sair de casa para trabalhar?
+
+Com todos estes pontos, a pergunta final é:
+
+### Como usar a comunicação como aliada para ajudar pessoas e negócios durante a crise que enfrentamos?
+
+As melhores idéias para esta solução serão premiadas.
+
+
+## 💡 Idéia / Solução <a name = "idea"></a>
 
 This section is used to describe potential solutions.
 
