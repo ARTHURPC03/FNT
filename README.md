@@ -26,14 +26,14 @@
 - [Capturas de tela](#problem_statement)
 - [Tema do projeto / Problema para solucionar](#problem_statement)
 - [Idéia / Solução](#idea)
-- [Dependencies / Limitations](#limitations)
-- [Future Scope](#future_scope)
+- [Dependências / Limitações](#limitations)
+- [Escopo futuro](#future_scope)
 - [Setting up a local environment](#getting_started)
 - [Usage](#usage)
 - [Technology Stack](#tech_stack)
 - [Contributing](../CONTRIBUTING.md)
-- [Authors](#authors)
-- [Acknowledgments](#acknowledgments)
+- [Autores](#Autores)
+- [Agradecimento](#Agradecimento)
 
 ## 📸 Capturas de tela <a name = "screenshots"></a>
 
@@ -54,27 +54,20 @@ Com todos estes pontos, a pergunta final é:
 
 As melhores idéias para esta solução serão premiadas.
 
-
 ## 💡 Idéia / Solução <a name = "idea"></a>
 
-This section is used to describe potential solutions.
+A nossa idéia consiste em criar um portal, ou uma plataforma, para combater as _fake news_, deixando ela atrativa para todo o tipo de público.
 
-Once the ideal, reality, and consequences sections have been
-completed, and understood, it becomes easier to provide a solution for solving the problem.
+## ⛓️ Dependências / Limitações <a name = "limitations"></a>
 
-## ⛓️ Dependencies / Limitations <a name = "limitations"></a>
+- O público alvo na nossa aplicação / plataforma é amplo, desde os idosos sem muito conhecimento de tecnologia, até os mais jovens que usufruem sempre da internet;
+- A aplicação / plataforma deve ser objetiva, interativa, informativa e atrativa;
+- Para refletir positivamente em todo o público alvo, a aplicação / plataforma deve ser responsiva, e talvez ser considerado ela ser _**mobile first**_;
+- Para que a aplicação / plataforma alcance todos os públicos possíveis, o foco deve ser uma página da web, pensando posteriormente em fazer aplicativos para celular;
 
-- What are the dependencies of your project?
-- Describe each limitation in detailed but concise terms
-- Explain why each limitation exists
-- Provide the reasons why each limitation could not be overcome using the method(s) chosen to acquire.
-- Assess the impact of each limitation in relation to the overall findings and conclusions of your project, and if
-  appropriate, describe how these limitations could point to the need for further research.
+## 🚀 Escopo futuro <a name = "future_scope"></a>
 
-## 🚀 Future Scope <a name = "future_scope"></a>
-
-Write about what you could not develop during the course of the Hackathon; and about what your project can achieve
-in the future.
+A aplicação tem como objetivo futuro ser colocada no ar, para 
 
 ## 🏁 Getting Started <a name = "getting_started"></a>
 
@@ -116,15 +109,16 @@ Add notes about how to use the system.
 - [ReactJS](https://reactjs.org/) - Web Framework
 - [NodeJs](https://nodejs.org/en/) - Server Environment
 
-## ✍️ Authors <a name = "authors"></a>
+## ✍️ Autores <a name = "Autores"></a>
 
-- [ARTHURPC](https://github.com/arthurpc03) - Idea & Initial work
+- [ARTHURPC](https://github.com/arthurpc03) - Idéia e desenvolvimento
+- [Fleflis](https://github.com/fleflis) - Idéia, design e desenvolvimento
 
-See also the list of [contributors](https://github.com/kylelobo/The-Documentation-Compendium/contributors)
-who participated in this project.
+Também disponível uma lista de [todos os contribuidores](https://github.com/arthurpc03/FNT/contributors) que participaram deste projeto.
 
-## 🎉 Acknowledgments <a name = "acknowledgments"></a>
+## 🎉 Agradecimento <a name = "Agradecimento"></a>
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- References
+- [Rocketseat](https://rocketseat.com.br), por auxiliar com a stack de desenvolvimento e a divulgação do hackaton
+- [Shawee](https://shawee.io), por organizar e disponibilizar o hackaton
+- Todos os mentores que nos auxiliaram com o desenvolvimento da idéia deste projeto
+- Uma menção honrosa aos mentores que nos incentivaram e gostariam de utilizar a nossa plataforma no futuro ( [Marco Aurelio](mailto:petrelli@petrellidesign.com.br), [Sicy Melo](mailto:sicyrg@gmail.com) )
