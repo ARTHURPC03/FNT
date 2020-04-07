@@ -34,6 +34,12 @@
 - [Agradecimento](#Agradecimento)
 
 ## 📸 Capturas de tela <a name = "screenshots"></a>
+![Image](.github/MainB.png)
+![image](.github/MainW.png)
+![image](.github/EntB.png)
+![image](.github/EntW.png)
+![image](.github/ProfB.png)
+
 
 ## 🧐 Tema do projeto / Problema para solucionar <a name = "problem_statement"></a>
 
