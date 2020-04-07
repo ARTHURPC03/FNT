@@ -26,14 +26,12 @@
 - [Capturas de tela](#problem_statement)
 - [Tema do projeto / Problema para solucionar](#problem_statement)
 - [Idéia / Solução](#idea)
-- [Dependencies / Limitations](#limitations)
-- [Future Scope](#future_scope)
-- [Setting up a local environment](#getting_started)
-- [Usage](#usage)
-- [Technology Stack](#tech_stack)
-- [Contributing](../CONTRIBUTING.md)
-- [Authors](#authors)
-- [Acknowledgments](#acknowledgments)
+- [Dependências / Limitações](#limitations)
+- [Escopo futuro](#future_scope)
+- [Como executar](#getting_started)
+- [Tecnologias utilizadas](#tech_stack)
+- [Autores](#Autores)
+- [Agradecimento](#Agradecimento)
 
 ## 📸 Capturas de tela <a name = "screenshots"></a>
 
@@ -54,77 +52,93 @@ Com todos estes pontos, a pergunta final é:
 
 As melhores idéias para esta solução serão premiadas.
 
-
 ## 💡 Idéia / Solução <a name = "idea"></a>
 
-This section is used to describe potential solutions.
+A nossa idéia consiste em criar um portal, ou uma plataforma, para combater as _fake news_, deixando ela atrativa para todo o tipo de público.
 
-Once the ideal, reality, and consequences sections have been
-completed, and understood, it becomes easier to provide a solution for solving the problem.
+Com isso, o nosso portal vai ter alguns segmentos, explicados á seguir:
 
-## ⛓️ Dependencies / Limitations <a name = "limitations"></a>
+### Rastreador de Fake News
 
-- What are the dependencies of your project?
-- Describe each limitation in detailed but concise terms
-- Explain why each limitation exists
-- Provide the reasons why each limitation could not be overcome using the method(s) chosen to acquire.
-- Assess the impact of each limitation in relation to the overall findings and conclusions of your project, and if
-  appropriate, describe how these limitations could point to the need for further research.
+- Postagens serão feitas por usuários e também recolhidas de sites de notícias automaticamente
+- Todas as postagens terão um sistema de pontuação e classificação, com valores de 1 á 5 estrelas, na qual os usuários votarão
+- As postagens com pontuação próxima a 1, são mais propensas á serem _fake news_, assim como as postagens com pontuação próxima a 5, são mais propensas á serem _noticias verdadeiras_
+- Os usuários podem cadastrar **referências bibliográficas** em cada notícia, fazendo com que a interação com a notícia seja maior, dando mais pontos positivos ou negativos á notícia.
+- As notícias também terá uma sessão de comentários, para interação e discussão sobre a notícia ou referência bibliográfica da mesma
+- Pode se fazer a pesquisa de alguma notícia, assim como o cadastro de uma nova é facilitado
 
-## 🚀 Future Scope <a name = "future_scope"></a>
+### Gráficos
 
-Write about what you could not develop during the course of the Hackathon; and about what your project can achieve
-in the future.
+- Serão mostrados dados em formatos de gráficos simplificados, para compreensão de tais dados em relação ao mundo, continente, país, estado, etc
+- Pode se filtrar informações de cada região através de um campo de busca
 
-## 🏁 Getting Started <a name = "getting_started"></a>
+### Entretenimento
 
-These instructions will get you a copy of the project up and running on your local machine for development
-and testing purposes. See [deployment](#deployment) for notes on how to deploy the project on a live system.
+- Uma sessão mais descontraída, para quem não está procurando por notícias sobre a pandemia, mas maneiras de como fazer uma interação social a distância, ou coisas relacionadas
+- Os usuários farão postagem de coisas para entreter os outros usuários durante o período de quarentena, como cursos gratuitos, experiências, documentários, filmes, aplicativos, etc
+- Dentro de cada postagem, além da descrição, terá uma sessão de comentários, para esclarecimento de dúvidas e interação entre o criador da postagem e os demais usuários
+- Todas as postagens terão um sistema de pontos, para classificar os posts mais relevantes ou com mais discussão
 
-### Prerequisites
+### Sistema de gamificação
 
-What things you need to install the software and how to install them.
+- Um sistema simples de [gamificação](https://pt.wikipedia.org/wiki/Ludificação), fazendo com que seja mais interessante interagir na plataforma, ganhando reconhecimento (seja por postagem de notícias, publicações de referências bibliográficas, publicação de entretenimento ou interação social com os usuários na plataforma)
+- O sistema de reconhecimento fica em cada sessão, tendo um placar dos usuários que mais interagem na plataforma
+- Existirá, de princípio, dois placares: semanal e total
+- Posteriormente, há a chance de recompensas em prêmios com futuras parcerias da plataforma
 
-```
-Give examples
-```
+
+## ⛓️ Dependências / Limitações <a name = "limitations"></a>
+
+- O público alvo na nossa plataforma é amplo, desde os idosos sem muito conhecimento de tecnologia, até os mais jovens que usufruem sempre da internet;
+- A plataforma deve ser objetiva, interativa, informativa e atrativa;
+- Para refletir positivamente em todo o público alvo, a plataforma deve ser responsiva, e talvez ser considerado ela ser _**mobile first**_;
+- Para que a plataforma alcance todos os públicos possíveis, o foco deve ser uma página da web, pensando posteriormente em fazer aplicativos para celular;
+
+## 🚀 Escopo futuro <a name = "future_scope"></a>
+
+A aplicação tem como objetivo futuro ser colocada no ar, para que o combate á _fake news_ seja feito, e ao mesmo tempo, a plataforme auxilie os usuários com interação social na quarentena.
+
+## 🏁 Como executar <a name = "getting_started"></a>
+
+Estas instruções vão fazer com que seja instalado e execute este projeto em sua máquina local **somente para propósitos de teste e desenvolvimento**.
+
+### Pré requisitos
+
+Para colocar em ambiente de desenvolvimento, é preciso instalar o [yarn](https://classic.yarnpkg.com/pt-BR/)
+
+Também deve se ter em mente que no ambiente de desenvolvimento, terá dois servidores: o **back end** (lida com o banco de dados e todas as informações, somente uma API) e o **front end** (a página da web na qual está a plataforma)
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running.
+Antes de iniciar os servidores de desenvolvimento, deve-se instalar as dependências
 
-Say what the step will be
+**Terminal 1 - Back end**
 
-```
-Give the example
-```
+``cd backend; yarn install; yarn start``
 
-And repeat
 
-```
-until finished
-```
+**Terminal 2 - Front end**
 
-## 🎈 Usage <a name="usage"></a>
+``cd frontend; yarn install; yarn start``
 
-Add notes about how to use the system.
 
-## ⛏️ Built With <a name = "tech_stack"></a>
+## ⛏️ Tecnologias utilizadas <a name = "tech_stack"></a>
 
 - [MongoDB](https://www.mongodb.com/) - Database
 - [Express](https://expressjs.com/) - Server Framework
 - [ReactJS](https://reactjs.org/) - Web Framework
 - [NodeJs](https://nodejs.org/en/) - Server Environment
 
-## ✍️ Authors <a name = "authors"></a>
+## ✍️ Autores <a name = "Autores"></a>
 
-- [ARTHURPC](https://github.com/arthurpc03) - Idea & Initial work
+- [ARTHURPC](https://github.com/arthurpc03) - Idéia e desenvolvimento
+- [Fleflis](https://github.com/fleflis) - Idéia, design e desenvolvimento
 
-See also the list of [contributors](https://github.com/kylelobo/The-Documentation-Compendium/contributors)
-who participated in this project.
+Também disponível uma lista de [todos os contribuidores](https://github.com/arthurpc03/FNT/contributors) que participaram deste projeto.
 
-## 🎉 Acknowledgments <a name = "acknowledgments"></a>
+## 🎉 Agradecimento <a name = "Agradecimento"></a>
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- References
+- [Rocketseat](https://rocketseat.com.br), por auxiliar com a stack de desenvolvimento e a divulgação do hackaton
+- [Shawee](https://shawee.io), por organizar e disponibilizar o hackaton
+- Todos os mentores que nos auxiliaram com o desenvolvimento da idéia deste projeto
+- Uma menção honrosa aos mentores que nos incentivaram e gostariam de utilizar a nossa plataforma no futuro ( [Marco Aurelio](mailto:petrelli@petrellidesign.com.br), [Sicy Melo](mailto:sicyrg@gmail.com) )
