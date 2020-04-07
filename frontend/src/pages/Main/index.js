@@ -7,7 +7,8 @@ import Example from '../../components/Menu/index'
 
 import { Container, Ul, Stars, Leatherboard, User } from './styles'
 
-import userPlaceholder from '../../assets/images/user-placeholder.png'
+import userPlaceholder from '../../assets/images/pp.jpeg'
+import shawee from '../../assets/images/shawee.jpg'
 
 export default function Main() {
   return (
@@ -18,7 +19,7 @@ export default function Main() {
           return (
             <li key={i}>
               <div className="top-line">
-                <strong>Título</strong>
+                <strong>FNT, a plataforma para conectar as pessoas</strong>
 
                 <Stars>
                   <IoIosStar />
@@ -29,13 +30,11 @@ export default function Main() {
                 </Stars>
               </div>
               <small>
-                por <Link to="/profile">Franco</Link>, 15 horas atrás
+                por <Link to="/profile">ARTHUR PC</Link>, 15 horas atrás
               </small>
+              <p><img src={shawee} alt="hack for good"/></p>
               <p className="description">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non
-                perferendis doloribus voluptas hic, ratione recusandae dicta cum
-                exercitationem aliquam molestias sequi mollitia dignissimos
-                voluptate, ex amet fugiat est voluptates quibusdam.
+                Grupo de amigos criam uma plataforma incrível para o Hack for Good da Shawee, a plataforma tem uma página onde as pessoas podem avaliar se a notícia parece verdadeira ou falsa, conta com uma página de entretenimento onde as pessoas podem compartilhar algum contéudo interessante como: filmes, séries, vídeos, etc. Em breve teremos novidades!
               </p>
               <div className="more-info">
                 <button type="button">Mais informações</button>
@@ -51,15 +50,15 @@ export default function Main() {
       <Leatherboard>
         <h1>Placar</h1>
         <small>
-          Aqui aparecerá o pessoal que mais interage na plataforma! \õ/
+          Ranking da plataforma
         </small>
 
-        {[...Array(10)].map((x, i) => (
+        {[...Array(1)].map((x, i) => (
           <User key={i}>
             <img src={userPlaceholder} alt="User profile" />
             <div className="details">
-              <h3>Fleflis</h3>
-              <span className="first">150</span>
+              <h3>ARTHUR PC</h3>
+              <span className="first">200</span>
             </div>
           </User>
         ))}

@@ -94,6 +94,11 @@ export const Ul = styled.ul`
     flex-direction: column;
     cursor: pointer;
 
+    img{
+      width: 640px;
+      height: 360px;
+    }
+
     .top-line {
       display: flex;
       flex-direction: row;
